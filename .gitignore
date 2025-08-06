@@ -1,4 +1,24 @@
-.classpath
-.project
+# Eclipse
+.metadata/
+*.launch
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Diretórios do Eclipse
 .settings/
-bin/
+.project
+.classpath
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
